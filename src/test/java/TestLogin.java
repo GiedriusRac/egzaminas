@@ -129,6 +129,6 @@ public class TestLogin {
 
         // Check if logged in
         boolean loginSuccessful = driver.findElement(By.cssSelector("[type='submit']")).isDisplayed();
-        System.out.println("[TestRegister:successfulLogin] Registered successfully = " + loginSuccessful);
+        System.out.println("[TestRegister:successfulLogin] Logged in successfully = " + loginSuccessful);
     }
 }
